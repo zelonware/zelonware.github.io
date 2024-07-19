@@ -1,3 +1,11 @@
-# zelonware.github.io
+making software for the emperor
 
-a website
+code is not gone
+
+shapeshifters
+
+making a new future
+
+still hope
+
+but suns are fading

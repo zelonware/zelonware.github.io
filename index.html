@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>code for the fading suns</title>
+    <style>
+        body {
+            font-family: monospace, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: grey;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            color: white;
+            text-decoration: line-through
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 1em;
+            overflow: auto;
+        }
+
+        .column {
+            background-color: #f4f4f4;
+            border-radius: 10px;
+            padding: 1em;
+            margin: 0.5em;
+            height: 350px;
+        }
+
+        .newsbox {
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            padding: 1em;
+            margin: 0.5em;
+        }
+
+        .newsheader {
+            color: aliceblue;
+            text-shadow: 5px 5px blue;
+        }
+
+        .left,
+        .right {
+            flex: 1;
+        }
+
+        .center {
+            flex: 2;
+        }
+
+        @media (max-width: 768px) {
+            .left {
+                display: none;
+            }
+
+            .center,
+            .right {
+                flex: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="headertext">code for the fading suns</h1>
+    </header>
+    <div class="container">
+        <div class="column left">
+            <p>making software for the emperor</p>
+            <p>code is not gone</p>
+            <p>shapeshifters</p>
+            <p>making a new future</p>
+            <p>still hope</p>
+            <p>but suns are fading</p>
+        </div>
+        <div class="column center">
+            <p>news on zelonware</p>
+            <div class="newsbox">
+                <p class="newsheader">starting with flutter</p>
+                <p>an awesome crossplatform development experience</p>
+            </div>
+            <div class="newsbox">
+                <p class="newsheader">crossing a new gate</p>
+                <p>leaving XAML behind</p>
+            </div>
+            <div class="newsbox">
+                <p class="newsheader">lost in space</p>
+                <p>no code to go</p>
+            </div>
+            <div class="newsbox">
+                <p class="newsheader">waves are gone</p>
+                <p>why nobody cares?</p>
+            </div>
+        </div>
+        <div class="column right">
+            <p>new to zelonware?</p>
+            <p>be not afraid</p>
+
+        </div>
+    </div>
+    <footer>
+        <p>made with ☕ by elenadotnet</p>
+    </footer>
+</body>
+
+</html>
